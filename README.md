@@ -1,7 +1,6 @@
 <h1 align="center">💡 desafio 💡</h1>
 
 <p align="center">
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/davibrandao18/desafio">
   <img alt="Last commit on GitHub" src="https://img.shields.io/github/last-commit/davibrandao18/desafio">
   <img alt="Project programing languages count" src="https://img.shields.io/github/languages/count/davibrandao18/desafio">
 </p> 
