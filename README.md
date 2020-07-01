@@ -18,7 +18,11 @@ Este projeto foi construído utilizando:
     <ul><li>Java 8</li></ul>
     <ul><li>JDK 13.0.2</li></ul>
     <ul><li>JSP</li></ul>
-    <ul><li>JSTL</li></ul>
+    <ul>
+      <li><summary>JSTL</summary>
+      Permite a criação de JSP sem a utilização de scriptlets, melhorando a legibilidade do código utilizando El
+      </li>
+    </ul>
     <ul><li>Java Bens</li></ul>
     <ul><li>DAO (Data Acess Object)</li></ul>
     <ul><li>Service</li></ul>
@@ -65,7 +69,7 @@ Este projeto foi construído utilizando:
     <ul>
         <li>Crie uma conexão</li>
         <li>Insira suas credenciais no arquivo ConnectionFactory.java</li>
-        <li>Obtenha o driver do mysql jdbc e o adicione ao Path do projeto</li>
+        <li>Verifique se o driver do mysql jdbc está adicionado ao Path do projeto</li>
         <li>Crie a estrutura de tabelas usando o arquivo ddl.sql</li>
     </ul>
 </details>
@@ -82,13 +86,29 @@ Este projeto foi construído utilizando:
 ## :question: Como usar
 
 <details>
-    <summary>Entendendo a cultura</summary>
-    
+     <summary>Cadastro</summary>
+     <ul>
+        <li>Preencha pelo menos E-mail ou CPF, para envio do fromulário</li>
+     </ul>
+     <img src="https://github.com/davibrandao18/desafio/blob/master/WebContent/assets/cadastro.png">
 </details>
 
 <details>
-     <summary>Cadastro</summary>
-     <img src="https://github.com/davibrandao18/desafio/blob/master/WebContent/assets/cadastro.png">
+    <summary>Retornos</summary>
+    <ul>
+       <li>"Usuário cadastrado com sucesso."</li>
+       Neste caso as informações inclusas foram salvas com sucesso no banco de dados
+    </ul>
+  
+   <img src="https://github.com/davibrandao18/desafio/blob/master/WebContent/assets/sucessoCadastro.gif">
+   
+   
+   <ul>
+       <li>"Erro ao registrar usuário."</li>
+       Este erro pode ser ocasionado por tentar mandar o formulário em branco, ou por não preencher o e-mai ou CPF
+   </ul>
+   
+   <img src="https://github.com/davibrandao18/desafio/blob/master/WebContent/assets/ErroCadastro1.gif">
 </details>
 
 
