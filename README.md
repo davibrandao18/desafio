@@ -79,7 +79,7 @@ Este projeto foi construído utilizando:
     <ul>
         <li>Adicione o projeto ao servidor tomcat</li>
         <li>Inicie o servidor</li>
-        <li>Por último, se estiver utilizando conexão local acesse <a href="localhost:8080/horadoevento/">localhost:8080/horadoevento/</a></li>
+        <li>Por último, se estiver utilizando conexão local acesse <a href="localhost:8080/horadoevento/">localhost:8080/desafio/</a></li>
     </ul>
 </details>
 
